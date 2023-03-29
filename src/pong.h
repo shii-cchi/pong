@@ -1,3 +1,6 @@
+#ifndef SRC_PONG_H_
+#define SRC_PONG_H_
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -30,3 +33,5 @@ int hit_ball(int ball_x, int ball_y, int ball_orientation, int racket_1,
              int racket_2);
 void move_ball(int *ball_x, int *ball_y, int ball_position,
                int *ball_orientation, int *score_1, int *score_2);
+
+#endif  // SRC_PONG_H_
