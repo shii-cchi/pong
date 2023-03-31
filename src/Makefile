@@ -9,4 +9,4 @@ play: all
 	./pong
 
 clean:
-	-rm -rf *.o pong
+	-rm -rf pong
